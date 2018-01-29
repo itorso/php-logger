@@ -2,7 +2,7 @@
     "name": "itorso/logger",
     "description": "PHP easy logger helper",
     "keywords": ["log", "logging", "psr-3"],
-    "homepage": "http://github.com/Seldaek/monolog",
+    "homepage": "https://github.com/itorso/php-logger",
     "type": "library",
     "license": "MIT",
     "authors": [
