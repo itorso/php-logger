@@ -1,0 +1,21 @@
+{
+    "name": "itorso/logger",
+    "description": "PHP easy logger helper",
+    "keywords": ["log", "logging", "psr-3"],
+    "homepage": "http://github.com/Seldaek/monolog",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Torso",
+            "email": "ivan.torso@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {"Logger\\": "src/Logger"}
+    }
+}
