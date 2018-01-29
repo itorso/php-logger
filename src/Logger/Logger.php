@@ -133,7 +133,7 @@ class Logger{
 	 * @param  array  $context
 	 */
 	public function debug($message, array $context = []){
-		return $this->log($message, Monolog::DEBUG, $context);
+		return $this->log($message, MonologLogger::DEBUG, $context);
 	}
 
 
@@ -144,7 +144,7 @@ class Logger{
 	 * @param  array  $context
 	 */
 	public function info($message, array $context = []){
-		return $this->log($message, Monolog::INFO, $context);
+		return $this->log($message, MonologLogger::INFO, $context);
 	}
 
 
@@ -155,7 +155,7 @@ class Logger{
 	 * @param  array  $context
 	 */
 	public function warning($message, array $context = []){
-		return $this->log($message, Monolog::WARNING, $context);
+		return $this->log($message, MonologLogger::WARNING, $context);
 	}
 
 
@@ -166,7 +166,7 @@ class Logger{
 	 * @param  array  $context
 	 */
 	public function error($message, array $context = []){
-		return $this->log($message, Monolog::ERROR, $context);
+		return $this->log($message, MonologLogger::ERROR, $context);
 	}
 
 
@@ -177,6 +177,6 @@ class Logger{
 	 * @param  array  $context
 	 */
 	public function critical($message, array $context = []){
-		return $this->log($message, Monolog::CRITICAL, $context);
+		return $this->log($message, MonologLogger::CRITICAL, $context);
 	}
 }
